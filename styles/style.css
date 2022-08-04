@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;500;700&family=Work+Sans:wght@400;500;600&display=swap");
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+.main .container-form {
+  z-index: 10;
+  background: #121214;
+  height: 83vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 9rem 5rem;
+}
+.main .container-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  height: 95rem;
+}
+
+.rocketNews-img img {
+  height: 15rem;
+}
+
+.text {
+  margin-top: 9.2rem;
+  margin-bottom: 6rem;
+}
+.text .title {
+  color: #04D361;
+  font-family: Work Sans;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 2.8rem;
+  padding-bottom: 15px;
+}
+.text .subtitle {
+  color: white;
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 2.35rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1.5rem;
+}
+.text .paragraf {
+  color: white;
+  font-family: "League Spartan";
+  font-weight: 200;
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.email-form .email-form-label {
+  color: #A8A8A8;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  line-height: 5rem;
+}
+
+.email-form-box {
+  display: flex;
+  box-shadow: 0.7rem 0.7rem 1rem black;
+  width: 110rem;
+  margin-bottom: 5rem;
+}
+.email-form-box .btn-email-confirm {
+  background: #8257e5;
+  border: none;
+  padding: 0 1.5rem;
+  cursor: pointer;
+}
+.email-form-box .email-input {
+  width: 200rem;
+  padding: 1.5rem 2.5rem;
+  outline: none;
+  border: none;
+  box-shadow: inset 0.5rem 0 0 0 #04D361;
+  font-family: "League Spartan";
+  font-size: 2rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+.link a {
+  text-decoration: none;
+  color: #8257e5;
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  transition: 0.2s;
+}
+.link a:hover {
+  font-size: 3rem;
+}/*# sourceMappingURL=style.css.map */
